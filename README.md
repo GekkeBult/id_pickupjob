@@ -11,15 +11,16 @@
 [Config]
 
 In the config file you are able to set:
-**- Vehicle obtained for transport to pick up vehicle.**
-**- Random vehicles for pick up.**
-**- Random locations where the random vehicles will spawn.**
-**- Your server name (required for chatmessage).**
-**- Where the job starts.**
-**- Where the job ends.**
-**- Minimum and maximum amount of money that a player will receive after the job is completed.**
-**- NPC configuration.**
-**- Blip configuration.**
+
+Vehicle obtained for transport to pick up vehicle.
+Random vehicles for pick up.
+Random locations where the random vehicles will spawn.
+Your server name (required for chatmessage).
+Where the job starts.
+Where the job ends.
+Minimum and maximum amount of money that a player will receive after the job is completed.
+NPC configuration.
+Blip configuration.
 
 Config = {}
 
