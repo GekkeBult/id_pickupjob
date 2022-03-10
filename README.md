@@ -19,6 +19,8 @@
 
 ## About This Resource
 
+<a href="https://www.youtube.com/watch?v=ufZIxukOl2g">Preview Resource</a>
+
 This resource is a great addition to any roleplay server, pick up job is NPC based job where you have to get a car and return it to NPC to earn money.
 
 This is useful for players because it is time free and easy to earn some money.
