@@ -1,35 +1,42 @@
-[Preview]
+<div id="top"></div>
 
-**Preview Link : https://www.youtube.com/watch?v=ufZIxukOl2g**
+<br />
+<div align="center">
 
-[Explanation]
+  <h3 align="center">Infinity Pick Up Job</h3>
 
-**This resource is a great addition to any roleplay server, pick up job is NPC based job where you have to get a car and return it to NPC to earn money.**
+  <p align="center">
+    <a href="http://infinity-devt.com">Visit Our Website</a>
+    ·
+    <a href="https://discord.gg/WRknrjMZAS">Join Our Discord</a>
+    ·
+    <a href="https://infinitydevelopment.tebex.io">Purchase Our Resources</a>
+  </p>
+</div>
 
-**This is useful for players because it is time free and easy to earn some money.**
+## About This Resource
 
-[Config]
+This resource is a great addition to any roleplay server, pick up job is NPC based job where you have to get a car and return it to NPC to earn money.
+
+This is useful for players because it is time free and easy to earn some money.
+
+### Config
 
 In the config file you are able to set:
 
-**- Vehicle obtained for transport to pick up vehicle.**
+* Vehicle obtained for transport to pick up vehicle.
+* Random vehicles for pick up.
+* Random locations where the random vehicles will spawn.
+* Your server name (required for chatmessage).
+* Where the job starts.
+* Where the job ends.
+* Minimum and maximum amount of money that a player will receive after the job is completed.
+* NPC configuration.
+* Blip configuration.
 
-**- Random vehicles for pick up.**
+## Config.lua file
 
-**- Random locations where the random vehicles will spawn.**
-
-**- Your server name (required for chatmessage).**
-
-**- Where the job starts.**
-
-**- Where the job ends.**
-
-**- Minimum and maximum amount of money that a player will receive after the job is completed**
-
-**- NPC configuration.**
-
-**- Blip configuration.**
-
+```lua
 Config = {}
 
 Config.Vehicles = { -- Vehicles for pickup (you can add as much as you want)
@@ -64,3 +71,4 @@ Config.NPCheading = 500
 
 Config.EnableBlip = true
 Config.BlipName = "Pickup Job"
+```
